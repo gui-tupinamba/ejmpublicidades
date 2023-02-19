@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-body, html {
-    overflow: hidden !important;
+html, body {
+    overflow: hidden!important;
 }
 
 a {
@@ -60,9 +60,9 @@ main {
     transition: 0.3s;
 }
 
-@media (max-width: 100000px) {
-    body, html {
-        overflow-x: hidden !important;
+@media (max-width: 786px) {
+    html, body {
+        overflow-x: hidden!important;
     }
 
     .nav-list {
