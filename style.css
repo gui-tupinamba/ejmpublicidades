@@ -62,7 +62,7 @@ main {
 
 @media (max-width: 786px) {
     html, body {
-        overflow-x: hidden!important;
+        overflow: hidden!important;
     }
 
     .nav-list {
