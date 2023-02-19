@@ -4,7 +4,7 @@
 }
 
 body, html {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 a {
@@ -62,9 +62,7 @@ main {
 
 @media (max-width: 100000px) {
     body, html {
-        overflow-x: hidden;
-        overflow-y: hidden;
-        overflow-block: hidden;
+        overflow-x: hidden !important;
     }
 
     .nav-list {
