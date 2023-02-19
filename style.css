@@ -1,3 +1,26 @@
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .div1 {
     text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 200px;
+}
+
+.a-pulse{
+    -webkit-animation:pulse infinite linear .9s alternate;
+}
+
+@-webkit-keyframes pulse {
+    0%{transform:scale(1)}100%{transform:scale(1.05)}
+}
+
+.video {
+    height: 400px;
+    border-radius: 10px;
 }
