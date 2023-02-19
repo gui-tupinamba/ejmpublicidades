@@ -60,7 +60,7 @@ main {
     transition: 0.3s;
 }
 
-@media (max-width: 786px) {
+@media scream and (max-width: 786px) {
     html, body {
         overflow: hidden!important;
     }
