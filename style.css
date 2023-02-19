@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+body, html {
     overflow: hidden;
 }
 
@@ -61,7 +61,7 @@ main {
 }
 
 @media (max-width: 100000px) {
-    body {
+    body, html {
         overflow-x: hidden;
         overflow-y: hidden;
         overflow-block: hidden;
