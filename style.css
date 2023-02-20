@@ -30,7 +30,7 @@ main {
     background: greenyellow no-repeat center center;
     background-size: cover;
     height: 92vh;
-    color: black;
+    color: white;
 }
 
 .nav-list {
@@ -51,7 +51,7 @@ main {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #000000;
+    background: white;
     margin: 8px;
     transition: 0.3s;
 }
@@ -116,6 +116,13 @@ main {
 }
 
 .btn1 {
-    border-radius: 1px;
-    border: solid 2px;
+    border-radius: 5px;
+    border: solid 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: green;
+}
+
+.btntext {
+    padding: 3px;
 }
