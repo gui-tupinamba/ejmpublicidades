@@ -133,3 +133,8 @@ li {
         right: 0;
     }
 }
+
+p {
+    padding: 50px;
+    text-align: justify;
+}
