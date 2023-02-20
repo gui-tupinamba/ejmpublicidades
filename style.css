@@ -86,7 +86,7 @@ li {
     color:black
 }
 
-@media screen and (max-width: 980) {
+@media screen and (max-width: 980px) {
     .barras {
         display: block;
         z-index: 999;
@@ -99,6 +99,9 @@ li {
         height: 100vh;
         margin: 0;
         background-color: green;
+        width: 100%;
+        max-width: 250px;
+        padding: 100px 20px;
         flex-direction: column;
     }
 }
