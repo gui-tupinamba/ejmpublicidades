@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html, body {
-    overflow: hidden!important;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -61,7 +57,7 @@ main {
 }
 
 @media (max-width: 786px) {
-    html, body {
+    body {
         overflow: hidden!important;
     }
 
