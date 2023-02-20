@@ -4,3 +4,10 @@ $(document).ready(function(){
         $(".menu").toggleClass("active");
     })
 })
+
+$(document).ready(function(){
+    $(".link1").click(function(){
+        $(this).toggleClass("active")
+        $(".menu").toggleClass("active")
+    })
+})
