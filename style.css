@@ -3,6 +3,7 @@
 }
 
 body {
+    @include Reset();
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     background-color: black;
@@ -118,7 +119,7 @@ li {
     .menu {
         position: fixed;
         top: 0;
-        right: -100%;
+        right: 0%;
         height: 100vh;
         margin: 0;
         background-color: green;
@@ -130,7 +131,7 @@ li {
     }
 
     .menu.active {
-        right: 0;
+        right: -100%;
     }
 }
 
